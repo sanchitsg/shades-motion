@@ -1,0 +1,163 @@
+/*
+* CSS for TEAM Page Content.
+*/
+
+.section.section-team .about-team {
+    margin-top: 10px;
+    background-color: #ffffff;
+    padding-bottom: 100px;
+}
+.section.section-team .about-team p.about-team-head {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    font-weight: 800;
+    color: #000000;
+}
+.section.section-team .about-team p.about-team-head .head-pink {
+    color: #ff00ff;
+}
+.section.section-team .about-team p.about-team-text {
+    font-size: 25px;
+    color: #000000;
+    letter-spacing: 5px;
+    padding-bottom: 30px;
+}
+.section.section-team .about-team .team-cards-block {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding-left: 2%;
+}
+.section.section-team .about-team .team-cards-block .team-lead {
+    width: 100%;
+    height: 700px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #ffffff;
+}
+.section.section-team .about-team .team-cards-block .team-lead .team-lead-img {
+    width: 50%;
+    float: left;
+}
+.section.section-team .about-team .team-cards-block .team-lead .team-lead-img img {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    margin-top: 30px;
+    box-shadow: 5px 5px 0px #000000, 10px 10px 10px #ff00ff;
+}
+.section.section-team .about-team .team-cards-block .team-lead .team-lead-text {
+    width: 50%;
+    float: left;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-right: 5%;
+}
+.section.section-team .about-team .team-cards-block .team-lead .team-lead-text .name {
+    font-size: 40px;
+    font-weight: 800;
+    color: #000000;
+}
+.section.section-team .about-team .team-cards-block .team-lead .team-lead-text .designation {
+    font-size: 35px;
+    font-weight: 800;
+    color: #ff00ff;
+}
+.section.section-team .about-team .team-cards-block .team-lead .team-lead-text .description {
+    font-size: 25px;
+    font-weight: 600;
+    color: #000000;
+}
+.section.section-team .about-team .team-cards-block .team-lead .team-lead-text .quote {
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+    color: #ff00ff;
+}
+.section.section-team .about-team .team-cards-block .team-others {
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.section.section-team .about-team .team-cards-block .team-others .team-member {
+    width: 49.8%;
+    height: 900px;
+    padding-top: 2%;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-align: center;
+    background-color: #ffffff;
+}
+.section.section-team .about-team .team-cards-block .team-others .team-member.team-member-odd {
+    float: left;
+}
+.section.section-team .about-team .team-cards-block .team-others .team-member.team-member-even {
+    float: right;
+}
+.section.section-team .about-team .team-cards-block .team-others .team-member-img,
+.section.section-team .about-team .team-cards-block .team-others .team-member-text {
+    width: 100%;
+    display: block;
+}
+.section.section-team .about-team .team-cards-block .team-others .team-member-text {
+    margin-top: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.section.section-team .about-team .team-cards-block .team-others .team-member-img {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.section.section-team .about-team .team-cards-block .team-others .team-member-img img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 0px #000000, 10px 10px 10px #ff00ff;
+}
+.section.section-team .about-team .team-cards-block .team-others .team-member-text .name {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+}
+.section.section-team .about-team .team-cards-block .team-others .team-member-text .designation {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ff00ff;
+}
+.section.section-team .about-team .team-cards-block .team-others .team-member-text .description {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+.section.section-team .about-team .team-cards-block .team-others .team-member .team-member-text .description,
+.section.section-team .about-team .team-cards-block .team-others .team-member .team-member-text .description,
+.section.section-team .about-team .team-cards-block .team-others .team-member .team-member-text .description,
+.section.section-team .about-team .team-cards-block .team-others .team-member .team-member-text .description {
+    height: 220px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+.section.section-team .about-team .team-cards-block .team-others .team-member-text .quote {
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+    color: #ff00ff;
+}
+.section.section-team .about-team .team-cards-block .team-lead .team-lead-text .quote q::before,
+.section.section-team .about-team .team-cards-block .team-others .team-member-text .quote q::before {
+    content: open-quote;
+    color: #05569c;
+    font-size: 30px;
+    font-weight: 800;
+}
+.section.section-team .about-team .team-cards-block .team-lead .team-lead-text .quote q::after,
+.section.section-team .about-team .team-cards-block .team-others .team-member-text .quote q::after {
+    content: close-quote;
+    color: #05569c;
+    font-size: 30px;
+    font-weight: 800;
+}

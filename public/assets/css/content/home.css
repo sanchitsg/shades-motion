@@ -1,0 +1,341 @@
+/*
+* CSS for HOME Page Content.
+*/
+
+.section.section-home {
+    padding: 0;
+}
+
+/* 1. HOME CAROUSEL */
+.section.section-home #home-carousel {
+    width: 100%;
+    height: 800px;
+}
+.section.section-home #home-carousel .carousel-indicators li {
+    background-color: #888181;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+.section.section-home #home-carousel .carousel-indicators li.active {
+    background-color: #05569c;
+}
+.section.section-home #home-carousel .carousel-inner .carousel-item img {
+    min-width: 100%;
+    min-height: 720px;
+    max-height: 720px;
+}
+
+/* 2. HOME QUOTE */
+.section.section-home .home-quote p {
+    font-size: 30px;
+    color: #000000;
+}
+.section.section-home .home-quote p q::before {
+    content: open-quote;
+    color: #05569c;
+    font-size: 60px;
+}
+.section.section-home .home-quote p q::after {
+    content: close-quote;
+    color: #05569c;
+    font-size: 60px;
+}
+.section.section-home .home-quote p span.quote-text-pink {
+    color: #ff00ff;
+}
+
+/* 3. ABOUT SECTION */
+.section.section-about {
+    margin: 0;
+    padding: 0;
+}
+.section.section-about .about-box {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.section.section-about .about-quote {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section.section-about .about-quote p.quote-text {
+    font-size: 40px;
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
+}
+.section.section-about .about-quote p.quote-text span.about-quote-black {
+    color: #000000;
+}
+.section.section-about .about-quote p.quote-text span.about-quote-pink {
+    color: #ff00ff;
+}
+.section.section-about .about-content {
+    width: 100%;
+    padding-bottom: 50px;
+}
+.section.section-about .about-content .row {
+    width: 100%;
+}
+.section.section-about .about-content .row .about-image-block {
+    width: 40%;
+    text-align: right;
+}
+.section.section-about .about-content .row .about-image-block img {
+    width: 650px;
+    height: 450px;
+    border-radius: 35%;
+}
+.section.section-about .about-content .row .about-text-block {
+    width: 60%;
+    text-align: center;
+    margin-top: 50px;
+}
+.section.section-about .about-content .row .about-text-block p.about-text {
+    font-size: 25px;
+    font-weight: 500;
+    color: #000000;
+}
+.section.section-about .about-content .about-work-parallax {
+    height: 800px;
+    width: 100%;    
+    background: no-repeat center;
+    background-size: contain;
+    background-attachment: fixed;
+}
+.section.section-about .about-content .row .card {
+    display: inline-block;
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 3px 3px 3px #000000, 5px 5px 5px #ff00ff;
+    padding: 5px;
+    margin: 50px;
+    margin-bottom: 0;
+}
+.section.section-about .about-content .row .card img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.section.section-about .about-content .row .card .card-body {
+    height: 90px;
+    width: 290px;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 0;
+    margin-left: 80px;
+    text-align: center;
+}
+.section.section-about .about-content .row .card .card-body .card-title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #000000;
+}
+.section.section-about .about-content .row .card .card-body .btn {
+    border-color: #05569c;
+    background-color: #ffffff;
+    border-width: 2px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #05569c;
+}
+.section.section-about .about-content .row .card .card-body .btn:hover {
+    background-color: #05569c;
+    color: #ffffff;
+}
+
+/* 4. CLIENT SECTION */
+.section.section-client {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    padding-bottom: 1%;
+}
+.section.section-client .row.client-head-row {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.section.section-client .row.client-head-row p.client-head {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 800;
+    color: #000000;
+}
+.section.section-client .row.client-head-row p.client-head .head-pink {
+    color: #ff00ff;
+}
+.section.section-client .row.client-content-row {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.section.section-client .row.client-content-row .carousel {
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0;
+}
+.section.section-client .row.client-content-row .carousel .carousel-inner {
+    width: 100%;
+}
+.section.section-client .row.client-content-row .carousel .carousel-inner .carousel-item {
+    width: 100%;
+}
+.section.section-client .row.client-content-row .carousel .carousel-inner .carousel-item .card {
+    display: inline-block;
+    width: 20%;
+    box-shadow: 3px 3px 0px #000000, 5px 5px 0px #ff00ff;
+    margin: 2%;
+}
+.section.section-client .row.client-content-row .carousel .carousel-inner .carousel-item .card img {
+    width: 100%;
+    padding: 1%;
+}
+.section.section-client .row.client-content-row .carousel ol.carousel-indicators {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: center;
+    position: relative;
+}
+.section.section-client .row.client-content-row .carousel ol.carousel-indicators li {
+    background-color: #000000;
+    border: none;
+    width: 50px;
+    height: 5px;
+    opacity: 1;
+}
+.section.section-client .row.client-content-row .carousel ol.carousel-indicators li.active {
+    background-color: #ff00ff;
+}
+.section.section-client .row.client-content-row .carousel .controls-bottom {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.section.section-client .row.client-content-row .carousel .controls-bottom .btn {
+    background-color: #000000;
+    font-size: 50px;
+    color: #ff00ff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.section.section-client .row.client-content-row .carousel .controls-bottom .btn.btn-prev {
+    padding-right: 10px;
+    margin-right: 20px;
+}
+.section.section-client .row.client-content-row .carousel .controls-bottom .btn.btn-next {
+    padding-left: 10px;
+}
+
+/* 5. CONTACT US SECTION */
+.section.section-contact-us {
+    padding: 0;
+    margin: 0;
+    min-height: 850px;
+}
+.section.section-contact-us .row.contact-head-row {
+    width: 100%;
+    padding-top: 1%;
+    margin: 0;
+}
+.section.section-contact-us .contact-head {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #000000;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.section.section-contact-us .row.contact-content-row {
+    width: 100%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0;
+}
+.section.section-contact-us .row.contact-content-row .contact-content-img {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.section.section-contact-us .row.contact-content-row .contact-content-img img.contact-us-img {
+    width: 450px;
+    height: 450px;
+}
+.section.section-contact-us .row.contact-content-row .contact-content-text {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.section.section-contact-us .row.contact-content-row .contact-content-text p.contact-text {
+    font-size: 25px;
+    color: #000000;
+    text-align: left;
+}
+.section.section-contact-us .row.contact-content-row .contact-content-text form {
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.section.section-contact-us .row.contact-content-row .contact-content-text form .form-group {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.section.section-contact-us .row.contact-content-row .contact-content-text form .form-group input {
+    width: 100%;
+    height: 50px;
+    border: 3px solid;
+    border-color: #05569c;
+    background-color: #ffffff;
+}
+.section.section-contact-us .row.contact-content-row .contact-content-text form .form-group input::placeholder {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ff00ff;
+    opacity: 0.7;
+}
+.section.section-contact-us .row.contact-content-row .contact-content-text form .form-group small.contact-us-error {
+    display: none;
+    color: #ff0000;
+    font-size: 12px;
+    font-weight: 600;
+}
+.section.section-contact-us .row.contact-content-row .contact-content-text form .contact-submit {
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.section.section-contact-us .row.contact-content-row .contact-content-text form .contact-submit .btn {
+    height: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #ff00ff;
+    border-width: 3px;
+    padding-top: 5px;
+    box-shadow: none;
+}
+.section.section-contact-us .row.contact-content-row .contact-content-text form .contact-submit .btn:hover {
+    color: #ffffff;
+    background-color: #05569c;
+    border-color: #ff00ff;
+}

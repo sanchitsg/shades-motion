@@ -1,0 +1,170 @@
+/*
+* CSS for WORK Page Content.
+*/
+
+/* 1. WORK Navigation Tabs */
+.section-work .work-tabs {
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+.section-work .work-tabs .nav-tabs {
+    height: 60px;
+    border-bottom: none;
+    background-color: #ffffff;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.section-work .work-tabs .nav-tabs .nav-item {
+    width: 25%;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    margin-left: 5%;
+    margin-right: 3%;
+    padding-top: 5px;
+    border-bottom: 2px solid #b9b0b0;
+    border-right: 2px solid #b9b0b0;
+    box-shadow: 3px 3px 3px #888181;
+}
+.section-work .work-tabs .nav-tabs .nav-item:hover {
+    background-color: #888181;
+}
+.section-work .work-tabs .nav-tabs .nav-item.action {
+    border-bottom: 4px solid #000000;
+    border-right: 4px solid #000000;
+    box-shadow: 3px 3px 3px #888181;
+}
+.section-work .work-tabs .nav-tabs .nav-item.action:hover {
+    background-color: #0775ea;
+}
+.section-work .work-tabs .nav-tabs .nav-item .nav-link {
+    font-size: 25px;
+    font-weight: 700;
+    color: #000000;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    padding-top: 5px;
+}
+.section-work .work-tabs .nav-tabs .nav-item.action .nav-link.active {
+    color: #0775ea;
+}
+.section-work .work-tabs .nav-tabs .nav-item.action .nav-link.active:hover {
+    color: #ffffff;
+}
+
+/* 2. WORK Display Section */
+.section-work .work-display {
+    width: 100%;
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.section-work .work-display .row {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.section-work .work-display h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+    border-bottom: 5px #ff00ff double;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.section-work .work-display .work-img-large {
+    width: 100%;
+    height: 350px;
+    display: block;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.section-work .work-display .work-img-large .img-container {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    padding: 0;
+    margin: 0;
+}
+.section-work .work-display .work-img-large .img-container img {
+    width: 100%;
+    height: 350px;
+    margin: 0;
+    border: 2px #888181 solid;
+}
+.section-work .work-display .work-img-large .img-container img:hover {
+    opacity: 0.4;
+}
+.section-work .work-display .work-img-small {
+    width: 100%;
+    height: 350px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.section-work .work-display .work-img-small .image-1,
+.section-work .work-display .work-img-small .image-2 {
+    width: 49.7%;
+}
+.section-work .work-display .work-img-small .image-1 {
+    float: left;
+    margin-right: 2.5px;
+}
+.section-work .work-display .work-img-small .image-2 {
+    float: left;
+    margin-left: 2.5px;
+}
+.section-work .work-display .work-img-small .image-1 .img-container,
+.section-work .work-display .work-img-small .image-2 .img-container {
+    width: 100%;
+    height: 350px;
+    padding: 0;
+    margin: 0;
+}
+.section-work .work-display .work-img-small .image-1 .img-container img,
+.section-work .work-display .work-img-small .image-2 .img-container img {
+    width: 100%;
+    height: 350px;
+    margin: 0;
+    border: 2px #888181 solid;
+}
+.section-work .work-display .work-img-small .image-1 .img-container img:hover,
+.section-work .work-display .work-img-small .image-2 .img-container img:hover {
+    opacity: 0.4;
+}
+
+/* 3. WORK Load More Button */
+.section-work .work-display .load-more {
+    height: 60px;
+    width: 250px;
+    background-color: #ffffff;
+    border-color: #0775ea;
+    border-width: 3px;
+    color: #ff00ff;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    align-content: center;
+    vertical-align: middle;
+}
+.section-work .work-display .load-more:hover {
+    background-color: #0775ea;
+    color: #ffffff;
+}
+.section-work .work-display .load-more:focus {
+    box-shadow: none;
+}
+.section-work .work-display .load-more.hide {
+    display: none;
+}

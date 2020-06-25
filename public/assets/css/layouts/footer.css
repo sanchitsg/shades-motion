@@ -1,0 +1,48 @@
+/*
+* CSS for Page Footer.
+*/
+
+.section.section-footer {
+    height: 70px;
+    background-color: #000000;
+}
+.section.section-footer .row {
+    min-height: 70px;
+    min-width: 100%;
+}
+.section.section-footer .row .footer-column {
+    margin: 0;
+    padding: 0;
+}
+.section.section-footer .row .footer-column nav {
+    margin-right: 150px;
+    margin-left: 150px;
+    padding: 0;
+    padding-top: 15px;
+}
+.section.section-footer .row .footer-column nav ul {
+    min-width: 100%;
+}
+.section.section-footer .row .footer-column nav ul li.other {
+    min-width: 30%;
+    text-align: center;
+}
+.section.section-footer .row .footer-column nav ul li.copyright-text {
+    min-width: 40%;
+    text-align: center;
+}
+.section.section-footer .row .footer-column nav ul li.copyright-text p {
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: normal;
+    color: #ffffff;
+}
+.section.section-footer .row .footer-column nav ul li a {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #ffffff;
+}
+.section.section-footer .row .footer-column nav ul li.active a {
+    color: #ff00ff;
+}

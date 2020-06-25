@@ -1,0 +1,122 @@
+/*
+* CSS for Page Header.
+*/
+
+.section.section-nav {
+    height: 70px;
+}
+.section.section-nav .container-fluid {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.section.section-nav .container-fluid nav {
+    width: 100%;
+}
+.section.section-nav .container-fluid nav #sm_header_menu_1 {
+    padding: 0;
+    margin: 0;
+    width: 40%;
+}
+.section.section-nav .container-fluid nav .sm-product-logo {
+    padding: 0;
+    margin: 0;
+    width: 20%;
+}
+.section.section-nav .container-fluid nav #sm_header_menu_2 {
+    padding: 0;
+    margin: 0;
+    width: 40%;
+}
+.section.section-nav .container-fluid nav #sm_header_menu_1 ul,
+.section.section-nav .container-fluid nav #sm_header_menu_2 ul {
+    width: 85%;
+}
+.section.section-nav .container-fluid nav #sm_header_menu_1 ul {
+    padding-left: 10%;
+    padding-right: 5%;
+}
+.section.section-nav .container-fluid nav #sm_header_menu_2 ul {
+    padding-left: 5%;
+    padding-right: 10%;
+}
+.section.section-nav .container-fluid nav #sm_header_menu_1 ul li {
+    margin-right: 30px;
+    min-width: 28.33%;
+    text-align: center;
+}
+.section.section-nav .container-fluid nav #sm_header_menu_1 ul li.dropdown .dropdown-menu {
+    width: 250px;
+}
+.section.section-nav .container-fluid nav #sm_header_menu_1 ul li.dropdown .dropdown-menu .dropdown-item {
+    text-align: center;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #000000;
+}
+.section.section-nav .container-fluid nav #sm_header_menu_1 ul li.dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #000000;
+    border-color: #000000;
+    color: #ff00ff;
+}
+.section.section-nav .container-fluid nav #sm_header_menu_1 ul li.dropdown.active.show .dropdown-menu .dropdown-item {
+    text-align: center;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #000000;
+}
+.section.section-nav .container-fluid nav #sm_header_menu_1 ul li.dropdown.active.show .dropdown-menu .dropdown-item:hover {
+    background-color: #000000;
+    border-color: #000000;
+    color: #ff00ff;
+}
+.section.section-nav .container-fluid nav #sm_header_menu_2 ul li {
+    margin-right: 50px;
+    min-width: 28.33%;
+    text-align: center;
+}
+.section.section-nav .container-fluid nav #sm_header_menu_1 ul li a,
+.section.section-nav .container-fluid nav #sm_header_menu_2 ul li a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+}
+.section.section-nav .container-fluid nav #sm_header_menu_1 ul li.active a.nav-link,
+.section.section-nav .container-fluid nav #sm_header_menu_2 ul li.active a.nav-link {
+    color: #ff00ff;
+}
+.section.section-nav .container-fluid nav #sm_header_menu_2 ul li.active a.dropdown-item.active {
+    color: #ff00ff;
+    background-color: #ffffff;
+}
+.section.section-nav .container-fluid nav .navbar-brand .brand-logo {
+    width: 100%;
+}
+.section.section-nav .container-fluid nav .navbar-brand .brand-logo .brand-logo-main,
+.section.section-nav .container-fluid nav .navbar-brand .brand-logo .brand-logo-sub {
+    display: block;
+}
+.section.section-nav .container-fluid nav .navbar-brand .brand-logo .brand-logo-main {
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+.section.section-nav .container-fluid nav .navbar-brand .brand-logo .brand-logo-main .brand-logo-white {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #000000;
+}
+.section.section-nav .container-fluid nav .navbar-brand .brand-logo .brand-logo-main .brand-logo-pink {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #ff00ff;
+}
+.section.section-nav .container-fluid nav .navbar-brand .brand-logo .brand-logo-sub {
+    margin-bottom: 0px;
+    margin-left: 70px;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 5px;
+    color: #000000;
+}
