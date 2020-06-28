@@ -36,7 +36,7 @@
                         <a class="nav-link" href="/team">TEAM</a>
                     </li>
                     <li class="nav-item" id="contact_id">
-                        <a class="nav-link home-link" data-tab-id="contact" href="javascript:void(0);">CONTACT US</a>
+                        <a class="nav-link home-link" data-tab-id="contact" href="javascript:void(0);">CONTACT</a>
                     </li>
                 </ul>
             </div>

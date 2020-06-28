@@ -16,17 +16,19 @@
 .section.section-nav .container-fluid nav #sm_header_menu_1 {
     padding: 0;
     margin: 0;
-    width: 40%;
+    width: 35%;
 }
 .section.section-nav .container-fluid nav .sm-product-logo {
     padding: 0;
     margin: 0;
+    margin-left: 2.5%;
+    margin-right: 7.5%;
     width: 20%;
 }
 .section.section-nav .container-fluid nav #sm_header_menu_2 {
     padding: 0;
     margin: 0;
-    width: 40%;
+    width: 35%;
 }
 .section.section-nav .container-fluid nav #sm_header_menu_1 ul,
 .section.section-nav .container-fluid nav #sm_header_menu_2 ul {

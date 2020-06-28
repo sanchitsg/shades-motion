@@ -21,10 +21,12 @@ $(document).ready(function() {
         var video_desc = $(this).data('video-description').length !== 0 ? $(this).data('video-description') : "";
 
         if(video_url.length !== 0 && video_title.length !== 0) {
-            //add data for work video modal.
-            console.log("URL ===> " + video_url + ", TITLE ===> " + video_title + ", DESCRIPTION ===> " + video_desc);
+            $('body').find('#work_video_modal .modal-title').text(video_title);
+            $('body').find('#work_video_modal .video-modal-block video source').attr('src',video_url);
+            $('body').find('#work_video_modal .video-desc-text').text(video_desc);
+            $('body').find('#work_video_modal').modal('show');
         } else {
-            console.log("Insufficient data for WORK Video functionality!");
+            console.log("Insufficient data for WORK Video Modal functionality!");
         }
     });
     // JS code to open Animation / Film Video on click of work image ends.

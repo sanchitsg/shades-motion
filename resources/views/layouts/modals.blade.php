@@ -25,13 +25,13 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-0 col-sm-0 col-md-3 col-lg-3"></div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center">
+                    <div class="col-xs-0 col-sm-0 col-md-1 col-lg-1"></div>
+                    <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 text-center">
                         <div class="video-desc text-center">
                             <p class="video-desc-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ipsa velit, maxime a impedit quo nam earum, magnam, dolorum non quod? Iure praesentium ea ad numquam voluptatem aperiam hic tenetur.</p>
                         </div>
                     </div>
-                    <div class="col-xs-0 col-sm-0 col-md-3 col-lg-3"></div>
+                    <div class="col-xs-0 col-sm-0 col-md-1 col-lg-1"></div>
                 </div>
             </div>
         </div>
